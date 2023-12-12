@@ -10,8 +10,6 @@ app.use(express.json());
 const activeConnections = {};
 
 
-// настройка для передачи статических файлов (__dirname - текущая директория)
-// метод join используется для соединения путей с учётом особенностей операционной системы
 app.use(express.static(path.join(__dirname, 'frontend')));
 
 

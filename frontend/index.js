@@ -1,7 +1,7 @@
-const list = document.getElementById('list'); // список ответов от сервера
-const startButton = document.getElementById('start'); // кнопка запуска long polling запросов
-const finishButton = document.getElementById('finish'); // кнопка завершения long polling запросов
-let isPolling = false; // текущее состояние запросов
+const list = document.getElementById('list');
+const startButton = document.getElementById('start');
+const finishButton = document.getElementById('finish');
+let isPolling = false;
 
 let messageNumber = 0;
 let count_request = 1;
