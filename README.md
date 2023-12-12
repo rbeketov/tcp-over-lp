@@ -6,13 +6,13 @@ Implementation of guaranteed message delivery using the TCP protocol over Long P
 
 ### Download all dependencies
 ```
-        npm ci
+   npm ci
 ```
 
 
 ### Then, start the application server
 ```
-        npm run start
+   npm run start
 ```
 
 ### Task details
